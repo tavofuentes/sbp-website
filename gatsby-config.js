@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Node.js (TypeScript) API',
+    title: 'Snail Book Pals',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby + Node.js (TypeScript) API',
+        name: 'Snail Book Pals',
         short_name: 'Gatsby + Node.js (TypeScript)',
         start_url: '/',
-        icon: 'src/images/gatsby-icon.png',
+        icon: 'src/images/sbp-icon.png',
       },
     },
   ],
