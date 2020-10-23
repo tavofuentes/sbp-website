@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './header.css'
-import { Link } from "gatsby"
-import SBPLogo from "../images/SBP-Logo.svg"
-import SBPSnail from "../images/SBP_Snail.svg"
+import { Link } from 'gatsby'
+import SBPLogo from '../images/SBP-Logo.svg'
+import SBPSnail from '../images/SBP_Snail.svg'
 
 class Header extends Component {
   state = {

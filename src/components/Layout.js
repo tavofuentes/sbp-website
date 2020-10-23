@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
-import Header from './header';
-import Stains from './stains';
+import Header from './Header.js';
+import Stains from './Stains.js';
 import './layout.css'
 
 export default function Layout({ children }) {
