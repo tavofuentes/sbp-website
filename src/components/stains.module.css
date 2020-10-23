@@ -1,0 +1,76 @@
+.stain-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.stain {
+  position: absolute;
+}
+
+.stain-01 {
+  background-image: url('../images/Stain-01.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 0;
+  padding-top: 24%;
+  bottom: -33px;
+  left: -33px;
+}
+
+.stain-02 {
+  background-image: url('../images/Stain-02.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 0%;
+  padding-top: 22%;
+  top: -0;
+  right: -33px;
+}
+
+
+.stain-03 {
+  background-image: url('../images/Stain-03.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 14%;
+  height: 0%;
+  padding-top: 18%;
+  right: 0px;
+  bottom: 0px;
+}
+
+.stain-04 {
+  background-image: url('../images/Stain-04.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24%;
+  height: 0%;
+  padding-top: 10%;
+  top: -33px;
+  left: 100px;
+}
+
+.stain-05 {
+  background-image: url('../images/Stain-05.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 22%;
+  height: 0%;
+  padding-top: 24%;
+  top: 12%;
+  left: -33px;
+}
+
+.stain-06 {
+  background-image: url('../images/Stain-06.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 0%;
+  padding-top: 8%;
+  bottom: 32px;
+  right: -37px;
+}

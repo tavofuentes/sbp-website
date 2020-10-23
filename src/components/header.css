@@ -1,0 +1,126 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F9F8F2;
+  border-bottom: 3px solid #EF6658;
+  color: #0066FF;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-height: 100vh;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.nav-menu-btn {
+  display: none;
+}
+
+.nav-sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.nav-menu-icon {
+  float: right;
+}
+
+.nav-content {
+  max-height: 0;
+  transition: max-height .3s ease-out;
+}
+
+.nav-content.active {
+  max-height: 100vh;
+}
+
+.nav-logo {
+  margin-bottom: 2rem;
+}
+
+.nav-logo-sm {
+  width: 3.5rem;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.nav-link {
+  color: #0066FF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:active,
+.nav-link[aria-current="page"] {
+  color: #EF6658;
+}
+
+@media (min-width: 60em) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 50rem;
+    position: sticky;
+    top: 0;
+    border-bottom: none;
+    border-right: 3px solid #EF6658;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+  }
+
+  header .stain {
+    position: absolute;
+    background-image: url('../images/Stain-07.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 156px;
+    height: 300px;
+    padding-top: 24%;
+    right: 0;
+    bottom: 30px;
+  }
+
+  .nav-sm {
+    align-self: center;
+    order: 3;
+  }
+
+  .nav-menu-icon {
+    display: none;
+  }
+
+  .nav-content {
+    display: block;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list li {
+    display: block;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 4rem;
+  }
+}
